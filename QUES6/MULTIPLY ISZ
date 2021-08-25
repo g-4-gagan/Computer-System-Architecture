@@ -1,0 +1,17 @@
+INP
+INC
+CMA
+INC
+STA A
+INP
+STA B
+CLA
+ISZ A
+BUN SUM_LOOP
+BUN PRINT_LOOP
+SUM_LOOP: ADD B
+          BUN 0x008
+PRINT_LOOP: OUT
+            HLT
+A: .data 1 0
+B: .data 1 0

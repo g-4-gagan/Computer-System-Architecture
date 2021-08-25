@@ -1,0 +1,8 @@
+INP
+STA A
+CMA
+STA B
+OUT
+HLT
+A: .data 1 0
+B: .data 1 0
